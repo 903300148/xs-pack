@@ -1,0 +1,44 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js add @babel/traversE babylon @babel/types @babel/generator
+
+PATH: 
+  C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\ProgramData\chocolatey\bin;C:\Users\Dell\AppData\Roaming\npm;C:\Python27;C:\Program Files\Git\cmd;C:\Users\Dell\AppData\Roaming\nvm;C:\Users\Dell\AppData\Roaming\nvm;C:\Users\Dell\AppData\Local\Yarn\bin;D:\安装目录\ADB;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;C:\Users\Dell\AppData\Roaming\npm;C:\Users\Dell\AppData\Local\GitHubDesktop\bin;C:\Users\Dell\AppData\Roaming\nvm;C:\Program Files\nodejs;D:\安装目录\Microsoft VS Code\bin
+
+Yarn version: 
+  1.19.1
+
+Node version: 
+  12.9.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmjs.org/@babel%2ftraversE: Not found
+      at Request.params.callback [as _callback] (C:\Users\Dell\AppData\Roaming\nvm\v12.9.1\node_modules\yarn\lib\cli.js:66926:18)
+      at Request.self.callback (C:\Users\Dell\AppData\Roaming\nvm\v12.9.1\node_modules\yarn\lib\cli.js:140564:22)
+      at Request.emit (events.js:209:13)
+      at Request.<anonymous> (C:\Users\Dell\AppData\Roaming\nvm\v12.9.1\node_modules\yarn\lib\cli.js:141536:10)
+      at Request.emit (events.js:209:13)
+      at IncomingMessage.<anonymous> (C:\Users\Dell\AppData\Roaming\nvm\v12.9.1\node_modules\yarn\lib\cli.js:141458:12)
+      at Object.onceWrapper (events.js:297:20)
+      at IncomingMessage.emit (events.js:214:15)
+      at endReadableNT (_stream_readable.js:1178:12)
+      at processTicksAndRejections (internal/process/task_queues.js:77:11)
+
+npm manifest: 
+  {
+    "name": "webpack-dev",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "bin": {
+      "xs-pack": "./bin/xs-pack.js"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
